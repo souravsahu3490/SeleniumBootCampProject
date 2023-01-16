@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 					features = "Features"
 					,glue = "test"
-					,tags = "@Regression"
+					,tags = "@URLValidation"
 		)
 
 public class TestRunner extends AbstractTestNGCucumberTests{
