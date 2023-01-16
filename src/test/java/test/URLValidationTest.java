@@ -34,6 +34,7 @@ public class URLValidationTest extends Driver {
 	
 	@Then("Page title is {string}")
 	public void page_tile_is(String string) {
+		System.out.println("Inside Page Title");
 		String actualTitle = landingPage.getTitle();
 		Assert.assertEquals(actualTitle, string);			    
 	}
